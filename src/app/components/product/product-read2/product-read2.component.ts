@@ -1,13 +1,7 @@
 import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
-<<<<<<< HEAD
 import { MatLegacyPaginator as MatPaginator } from '@angular/material/legacy-paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatLegacyTable as MatTable } from '@angular/material/legacy-table';
-=======
-import { MatPaginator } from '@angular/material/paginator';
-import { MatSort } from '@angular/material/sort';
-import { MatTable } from '@angular/material/table';
->>>>>>> 1748677e517533617aac824cafe01225fb8b989d
 import { ProductRead2DataSource } from './product-read2-datasource';
 import { Product } from './../product.model';
 
