@@ -4,27 +4,21 @@ import { NgModule, LOCALE_ID } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderComponent } from './components/templetes/header/header.component';
+import { HeaderComponent } from './components/templates/header/header.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { FooterComponent } from './components/templetes/footer/footer.component';
-import { NavComponent } from './componentes/templete/nav/nav.component';
+import { FooterComponent } from './components/templates/footer/footer.component';
+import { NavComponent } from './components/templates/nav/nav.component';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 
-<<<<<<< HEAD
 import { MatLegacyCardModule as MatCardModule } from '@angular/material/legacy-card';
 import { MatLegacyListModule as MatListModule } from '@angular/material/legacy-list';
-=======
-import { MatCardModule } from '@angular/material/card';
-import { MatListModule } from '@angular/material/list';
->>>>>>> 1748677e517533617aac824cafe01225fb8b989d
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
-<<<<<<< HEAD
 import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
 import { MatLegacySnackBarModule as MatSnackBarModule } from '@angular/material/legacy-snack-bar';
 import { HttpClientModule } from '@angular/common/http';
@@ -35,18 +29,6 @@ import { ProductReadComponent } from './components/product/product-read/product-
 import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
 import { MatLegacyTableModule as MatTableModule } from '@angular/material/legacy-table';
 import { MatLegacyPaginatorModule as MatPaginatorModule } from '@angular/material/legacy-paginator';
-=======
-import { MatButtonModule } from '@angular/material/button';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { HttpClientModule } from '@angular/common/http';
-import  { FormsModule } from '@angular/forms';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material/input';
-import { ProductReadComponent } from './components/product/product-read/product-read.component';
-import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
-import { MatTableModule } from '@angular/material/table';
-import { MatPaginatorModule } from '@angular/material/paginator';
->>>>>>> 1748677e517533617aac824cafe01225fb8b989d
 import { MatSortModule } from '@angular/material/sort';
 import localePt from '@angular/common/locales/pt';
 import {registerLocaleData} from '@angular/common';

@@ -114,6 +114,9 @@
 <<<<<<< HEAD
 =======
   "defaultProject": "frontend",
+  "cli": {
+    "analytics": "15fb2173-c951-4625-bbe0-ac0d2d2077a1"
+  },
 >>>>>>> 1748677e517533617aac824cafe01225fb8b989d
   "cli": {
     "analytics": "2b9a5444-2e1c-4561-ab9d-3145c383c888"
