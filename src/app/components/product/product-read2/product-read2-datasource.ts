@@ -1,5 +1,9 @@
 import { DataSource } from '@angular/cdk/collections';
+<<<<<<< HEAD
 import { MatLegacyPaginator as MatPaginator } from '@angular/material/legacy-paginator';
+=======
+import { MatPaginator } from '@angular/material/paginator';
+>>>>>>> 1748677e517533617aac824cafe01225fb8b989d
 import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
 import { Observable, of as observableOf, merge } from 'rxjs';

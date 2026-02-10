@@ -1,6 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+<<<<<<< HEAD
 import { MatLegacySnackBar as MatSnackBar } from '@angular/material/legacy-snack-bar';
+=======
+import { MatSnackBar } from '@angular/material/snack-bar';
+>>>>>>> 1748677e517533617aac824cafe01225fb8b989d
 import { Product } from './product.model';
 import { EMPTY, Observable } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
