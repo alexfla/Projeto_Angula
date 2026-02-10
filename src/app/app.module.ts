@@ -41,7 +41,7 @@ registerLocaleData(localePt);
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    //NavComponent,
+    NavComponent,
     HomeComponent,
     ProductCrudComponent,
     ProductCreateComponent,
